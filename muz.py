@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
-f = open("새파일.txt", 'w')
+f = open("muz-result.txt", 'w')
 
 response = urlopen('https://m.zum.com/')
 soup = BeautifulSoup(response, 'html.parser')
